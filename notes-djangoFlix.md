@@ -11,7 +11,17 @@
 7. django-admin startproject djangoflix . : create new django project
 
 #### Part-2: Video Player
+- Create a new app called video
+- Create video model in video app.
+- Register app and put it in installed all, then make the migration also run tests.(python manage.py test videos)
+- create a new superuser
 
+- **Test-1** 
+- In video app -> test -> create a new test
+
+#### Part-3: Add app in admin also create proxys
+- In video app -> admin.py -> add app to admin
+- Added model proxys in admin.py
 ---
 
 ## OPTIONAL:
