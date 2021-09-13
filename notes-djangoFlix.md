@@ -28,7 +28,26 @@
 #### Part-4: Increasing models
 - Add publish timestamp
 - Write test for publish timestamp
+- Make and test slugify , here we use video_id as unique so we don't really need slugify.
+- Added custom model manager and custom queryset
+- Deleted custom save method and used pre_save signal
 ---
+
+#### Part-5: Playlist
+- Created new app for playlists
+- Register app in settings.py
+- Created test for playlists
+- Added app in admin.py
+- Used Django-Managed Python Shell to explore Foreign Keys
+- used django shell to see actual action
+
+
+#### Part-6: Many To Many Foreign Keys
+- creating many-to-many foreign keys with related name and test them.
+- Created Tabular Inline in the admin Many To Many feilds
+- Updated Tests for Through Model
+
+### Part-7: Playlists (Seasons)
 
 ## OPTIONAL:
 
