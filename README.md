@@ -17,7 +17,7 @@ $ cd Netflix-Backend-Django
 2. Create a virtual environment to install dependencies in and activate it:
 
 ```sh
-$ python -m venv
+$ python -m venv .
 $ .\Scripts\activate
 ```
 
